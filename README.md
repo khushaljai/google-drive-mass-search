@@ -71,3 +71,22 @@ Create OAuth 2.0 Client ID → choose Desktop app.
 Download the credentials file and rename it to credentials.json.
 
 Place it in the same folder as appv7.py.
+
+## ▶️ Running the App
+
+Start the Streamlit app:
+
+streamlit run appv7.py
+
+## Usage of the app
+Once it opens in your browser:
+
+Upload Excel file — must contain columns filename and company.
+
+Specify an output Excel file path (for the results workbook).
+
+Define the download folder (optional).
+
+Click Run Search to begin Drive scanning.
+
+After results are generated, click Download All Found Files to save them locally.
