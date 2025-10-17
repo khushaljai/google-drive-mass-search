@@ -90,3 +90,12 @@ Define the download folder (optional).
 Click Run Search to begin Drive scanning.
 
 After results are generated, click Download All Found Files to save them locally.
+
+
+⚡ Troubleshooting
+Issue	Solution
+Auth window doesn’t open	Ensure your OAuth client type is Desktop. Try deleting token.pickle and reauthorizing.
+403 / Insufficient permissions	Recreate credentials with drive.readonly scope enabled.
+Excel read error	Make sure your file is .xlsx and has columns filename and company.
+No results found	Check Drive sharing permissions and verify filenames (case-sensitive).
+Download fails	Ensure the target folder is writable and not locked by another process.
