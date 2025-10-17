@@ -1,0 +1,7 @@
+{
+  "credentials_file": "credentials.json",
+  "token_file": "token.pickle",
+  "scopes": ["https://www.googleapis.com/auth/drive.readonly"],
+  "exclusion_suffixes": ["_backup", "_copy", "_old"],
+  "download_folder": "./downloads"
+}
