@@ -125,7 +125,7 @@ Download fails	Ensure the target folder is writable and not locked by another pr
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/yourusername/drive-file-search.git
+git clone https://github.com/khushaljai/drive-file-search.git
 cd drive-file-search
 2️⃣ Create and activate a virtual environment
 bash
